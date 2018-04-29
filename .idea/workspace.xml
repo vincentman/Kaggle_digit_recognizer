@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d5a054-a51f-4ae5-b706-234ecc48e284" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/svm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm/load_data_std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm/pca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm/svm_predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm/svm_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/cnn_predict_submit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/load_data_std.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data_std.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn/cnn_train_2_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_load_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_train_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_train_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_train_2_accuracy.png" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_train_accuracy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_train_2_loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_train_loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_train_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svm_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/cnn_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/cnn_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +22,8 @@
       <file leaf-file-name="load_data_std.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm/load_data_std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="152">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="e#41#89#0" expanded="true" />
               </folding>
@@ -40,20 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
+      <file leaf-file-name="load_data_std.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/load_data_std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="57">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/codecs.py">
+      <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5852">
-              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            <state relative-caret-position="-475">
+              <caret selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -61,8 +52,20 @@
       <file leaf-file-name="cnn_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="57">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load_data_std.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -70,43 +73,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/sklearn/svm/classes.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="cnn_predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10697">
-              <caret line="572" column="8" selection-start-line="572" selection-start-column="8" selection-end-line="572" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1849563153/builtins.py">
+      <file leaf-file-name="cnn_predict_submit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_submit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98800">
-              <caret line="5200" column="8" selection-start-line="5200" selection-start-column="8" selection-end-line="5200" selection-end-column="8" />
+            <state relative-caret-position="209">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pca.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/svm/pca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="svm_predict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
+      <file leaf-file-name="sample_submission.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample_submission.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,12 +138,17 @@
         <option value="$PROJECT_DIR$/pca.py" />
         <option value="$PROJECT_DIR$/cnn/cnn_train_1.py" />
         <option value="$PROJECT_DIR$/cnn/cnn_train_2.py" />
-        <option value="$PROJECT_DIR$/cnn/cnn_train.py" />
-        <option value="$PROJECT_DIR$/cnn/cnn_predict.py" />
         <option value="$PROJECT_DIR$/svm/svm_predict.py" />
         <option value="$PROJECT_DIR$/svm_train.py" />
         <option value="$PROJECT_DIR$/svm/svm_train.py" />
         <option value="$PROJECT_DIR$/svm/pca.py" />
+        <option value="$PROJECT_DIR$/cnn/load_data.py" />
+        <option value="$PROJECT_DIR$/batch_read.py" />
+        <option value="$PROJECT_DIR$/batch_load_data_std.py" />
+        <option value="$PROJECT_DIR$/cnn/cnn_predict.py" />
+        <option value="$PROJECT_DIR$/cnn/cnn_train.py" />
+        <option value="$PROJECT_DIR$/cnn/load_data_std.py" />
+        <option value="$PROJECT_DIR$/cnn/cnn_predict_submit.py" />
       </list>
     </option>
   </component>
@@ -193,7 +190,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../machinelearn_book/Book_Tensorflow-Keras" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.buildout.BuildoutModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -204,14 +201,16 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\svm" />
-      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer" />
-      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\cnn" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\cnn" />
+      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer" />
       <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\svm" />
       <recent name="D:\machine_learn\competition\kaggle\Kaggle_digit_recognizer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\cnn" />
+      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer\svm" />
+      <recent name="C:\Users\Vincent\machine_learn\kaggle\Kaggle_digit_recognizer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,8 +225,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.svm_predict">
-    <configuration name="cnn_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cnn_predict_submit">
+    <configuration name="cnn_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kaggle_digit_recognizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/cnn_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="cnn_predict_submit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Kaggle_digit_recognizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/cnn_predict_submit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="cnn_train" type="PythonConfigurationType" factoryName="Python">
       <module name="Kaggle_digit_recognizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,17 +354,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.svm_train" />
-      <item itemvalue="Python.pca_test" />
       <item itemvalue="Python.cnn_train" />
+      <item itemvalue="Python.pca_test" />
       <item itemvalue="Python.pca (1)" />
       <item itemvalue="Python.svm_predict" />
+      <item itemvalue="Python.cnn_predict" />
+      <item itemvalue="Python.cnn_predict_submit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cnn_predict_submit" />
+        <item itemvalue="Python.cnn_predict" />
         <item itemvalue="Python.pca_test" />
         <item itemvalue="Python.pca (1)" />
         <item itemvalue="Python.svm_predict" />
-        <item itemvalue="Python.cnn_train" />
       </list>
     </recent_temporary>
   </component>
@@ -372,12 +410,13 @@
     <frame x="-8" y="0" width="1196" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26614988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26614988" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3036723" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.265625" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.265625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -388,7 +427,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -529,71 +567,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/svm/pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1849563153/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98800">
-          <caret line="5200" column="8" selection-start-line="5200" selection-start-column="8" selection-end-line="5200" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5054">
-          <caret line="273" selection-start-line="273" selection-end-line="273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11837">
-          <caret line="662" selection-start-line="662" selection-end-line="662" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/load_data_std.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/sklearn/svm/classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10697">
@@ -651,7 +624,7 @@
         <state relative-caret-position="931">
           <caret line="52" selection-start-line="52" selection-end-line="52" selection-end-column="19" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,7 +675,7 @@
         <state relative-caret-position="1197">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,7 +709,7 @@
         <state relative-caret-position="1386">
           <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,20 +782,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_train_1.py" />
-    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5852">
@@ -837,32 +796,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_train_accuracy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data_std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/svm/load_data_std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#41#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cnn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/svm/pca.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -873,6 +862,33 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_submission.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

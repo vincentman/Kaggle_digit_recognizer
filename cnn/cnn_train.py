@@ -1,24 +1,7 @@
-import csv
 import time
-import numpy as np
-from keras.utils import to_categorical
 
-xlist, ylist = [], []
-with open("../train.csv", 'r') as file:
-    csv_reader = csv.reader(file, delimiter=',')
-    next(csv_reader)  # skip header
-    count = 0
-    for line in csv_reader:
-        if count >= 42000*0.7:
-            break
-        xlist.append(line[1:785])
-        ylist.append(line[0])
-        count += 1
-x_train = np.asarray(xlist).reshape((len(xlist), 28, 28, 1)).astype('float32') / 255
-y_train = to_categorical(np.asarray(ylist, dtype=np.float32), 10)
-
-print(x_train.shape)
-print(y_train.shape)
+from cnn.load_data_std import get_data
+x_train, y_train = get_data(True, '../train.csv')
 
 from keras.models import Sequential
 from keras.layers import Dense,Dropout,Flatten,Conv2D,MaxPooling2D
