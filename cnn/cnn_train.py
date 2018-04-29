@@ -1,11 +1,10 @@
 import csv
+import time
 import numpy as np
 from keras.utils import to_categorical
 
-import time
-start = time.time()
 xlist, ylist = [], []
-with open("train.csv", 'r') as file:
+with open("../train.csv", 'r') as file:
     csv_reader = csv.reader(file, delimiter=',')
     next(csv_reader)  # skip header
     count = 0
@@ -49,8 +48,14 @@ model.add(Dense(10,activation='softmax'))
 print(model.summary())
 
 epochs = 20
+from keras.optimizers import Adam
+# learning_rate = 0.0001
+# adam = Adam(lr=learning_rate)
+# model.compile(loss='categorical_crossentropy',
+#               optimizer=adam,metrics=['accuracy'])
 model.compile(loss='categorical_crossentropy',
               optimizer='adam',metrics=['accuracy'])
+start = time.time()
 train_history=model.fit(x=x_train,
                         y=y_train, validation_split=0.2,
                         epochs=epochs, batch_size=128, verbose=2)
@@ -80,4 +85,4 @@ show_train_history('loss','val_loss','loss')
 end = time.time()
 print('elapsed training time: {} min, {} sec '.format(int((end - start)/60), int((end - start)%60)))
 
-model.save('cnn_train_2_model.h5')
+model.save('cnn_train_model.h5')

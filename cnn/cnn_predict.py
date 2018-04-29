@@ -5,7 +5,7 @@ from keras.utils import to_categorical
 import time
 start = time.time()
 xlist, ylist = [], []
-with open("train.csv", 'r') as file:
+with open("../train.csv", 'r') as file:
     csv_reader = csv.reader(file, delimiter=',')
     next(csv_reader)  # skip header
     count = 0
@@ -22,7 +22,7 @@ print(x_test.shape)
 print(y_test.shape)
 
 from keras.models import load_model
-model = load_model('cnn_train_2_model.h5')
+model = load_model('cnn_train_model.h5')
 scores = model.evaluate(x_test , y_test)
 print(scores[1])
 
