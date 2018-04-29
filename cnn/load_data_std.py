@@ -28,11 +28,7 @@ def get_submit_data(file_path):
         next(csv_reader)  # skip header
         for line in csv_reader:
             xlist.append(line[:784])
-            # ylist.append(line[0])
     x_submit = np.asarray(xlist).reshape((len(xlist), 28, 28, 1)).astype('float32') / 255
-    # y_train = to_categorical(np.asarray(ylist, dtype=np.float32), 10)
     print(x_submit.shape)
-    # print(y_train.shape)
     return x_submit
-    # return x_train, y_train
 
