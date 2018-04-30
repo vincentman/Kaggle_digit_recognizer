@@ -49,8 +49,6 @@ def show_train_history(train_acc, validation_acc, ylabel):
     plt.plot(train_history.history[validation_acc])
     final_epoch_train_acc = train_history.history[train_acc][epochs - 1]
     final_epoch_validation_acc = train_history.history[validation_acc][epochs - 1]
-    # plt.text(train_history.epoch[epochs-1], final_epoch_train_acc-0.01, 'train = {:.3f}'.format(final_epoch_train_acc))
-    # plt.text(train_history.epoch[epochs-1], final_epoch_validation_acc-0.03, 'valid = {:.3f}'.format(final_epoch_validation_acc))
     plt.text(train_history.epoch[epochs-1], final_epoch_train_acc, 'train = {:.3f}'.format(final_epoch_train_acc))
     plt.text(train_history.epoch[epochs-1], final_epoch_validation_acc-0.01, 'valid = {:.3f}'.format(final_epoch_validation_acc))
     plt.title('Train History')
@@ -59,13 +57,25 @@ def show_train_history(train_acc, validation_acc, ylabel):
     plt.xlim(xmax=epochs+1)
     plt.legend(['train', 'validation'], loc='upper left')
     fig = plt.gcf()
-    fig.savefig('./cnn_train_2_{}.png'.format(ylabel), dpi=300)
+    fig.savefig('./cnn_train_{}.png'.format(ylabel), dpi=300)
     plt.clf()
     # plt.show()
-show_train_history('acc','val_acc','accuracy')
-show_train_history('loss','val_loss','loss')
+    return final_epoch_train_acc, final_epoch_validation_acc
+train_acc, validation_acc = show_train_history('acc','val_acc','accuracy')
+train_loss, validation_loss = show_train_history('loss','val_loss','loss')
 
 end = time.time()
-print('elapsed training time: {} min, {} sec '.format(int((end - start)/60), int((end - start)%60)))
+elapsed_train_time = 'elapsed training time: {} min, {} sec '.format(int((end - start)/60), int((end - start)%60))
+print(elapsed_train_time)
 
 model.save('cnn_train_model.h5')
+
+with open('cnn_train_info.txt', 'w') as file:
+    file.write(elapsed_train_time+'\n')
+    file.write('train accuracy = {}, validation accuracy = {}\n'.format(train_acc, validation_acc))
+    file.write('train loss = {}, validation loss = {}\n'.format(train_loss, validation_loss))
+
+
+
+
+

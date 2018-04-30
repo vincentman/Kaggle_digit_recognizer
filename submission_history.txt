@@ -1,0 +1,6 @@
+2018/05/01 09:55
+1. change train data ratio from 0.7 to 0.8
+submission score = 0.98914
+------------------------------------------------
+2018/04/30
+submission score = 0.98985
