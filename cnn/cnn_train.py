@@ -31,7 +31,7 @@ model.add(Dense(10,activation='softmax'))
 print(model.summary())
 
 epochs = 20
-from keras.optimizers import Adam
+# from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
 # model.compile(loss='categorical_crossentropy',
