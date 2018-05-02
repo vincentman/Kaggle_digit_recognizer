@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" filepath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Kaggle_titanic/.idea/Kaggle_titanic.iml" filepath="$PROJECT_DIR$/../Kaggle_titanic/.idea/Kaggle_titanic.iml" />
     </modules>
   </component>
 </project>

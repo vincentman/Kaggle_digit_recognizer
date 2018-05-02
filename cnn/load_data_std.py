@@ -9,8 +9,9 @@ def get_data(is_train, file_path):
     with open(file_path, 'r') as file:
         csv_reader = csv.reader(file, delimiter=',')
         next(csv_reader)  # skip header
+        lines = list(csv_reader) if is_train else reversed(list(csv_reader))
         count = 0
-        for line in csv_reader:
+        for line in lines:
             if count >= 42000*data_ratio:
                 break
             xlist.append(line[1:785])
