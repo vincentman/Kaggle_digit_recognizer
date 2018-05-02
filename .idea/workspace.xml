@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d5a054-a51f-4ae5-b706-234ecc48e284" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kaggle_titanic/svm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn/cnn_predict_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/cnn_predict_info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn/load_data_std.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/load_data_std.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/.idea/Kaggle_titanic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kaggle_titanic/.idea/Kaggle_titanic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/process_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kaggle_titanic/process_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Kaggle_titanic/statistics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/train_accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/train_loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kaggle_titanic/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +19,8 @@
       <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="-415">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -37,34 +28,35 @@
       <file leaf-file-name="cnn_predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="57">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnn_train_info.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnn/cnn_train_info.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="svm_predict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="33" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnn_predict_info.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cnn_predict_info.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="19">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm.py">
+      <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm/svm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -72,8 +64,8 @@
       <file leaf-file-name="load_data_std.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="342">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -81,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnn_train.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cnn_train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-792">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="212">
+              <caret line="72" column="2" selection-start-line="72" selection-end-line="75" selection-end-column="93" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -94,19 +86,19 @@
         </entry>
       </file>
       <file leaf-file-name="mlp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp.py">
+        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp/mlp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="statistics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/statistics.py">
+        <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/common/statistics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+            <state relative-caret-position="2812">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -171,10 +163,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="317" />
-    <option name="y" value="13" />
-    <option name="width" value="1334" />
-    <option name="height" value="1000" />
+    <option name="x" value="315" />
+    <option name="y" value="12" />
+    <option name="width" value="1335" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,37 +428,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19583334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13741064" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3245243" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.29281184" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3625793" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.21294719" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20374708" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20272572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4275568" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20272572" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4275568" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,6 +588,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/common/statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2812">
+          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -733,13 +728,6 @@
     <entry file="file://$PROJECT_DIR$/cnn/cnn_train_1.py" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/codecs.py" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/pandas/io/parsers.py" />
-    <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -785,44 +773,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/statistics.py">
+    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/common/statistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        <state relative-caret-position="2812">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp.py">
+    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp/mlp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm.py">
+    <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm/svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -838,31 +806,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="342">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/submission02/cnn_predict_info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/cnn_train_info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="33" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="72" column="2" selection-start-line="72" selection-end-line="75" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
