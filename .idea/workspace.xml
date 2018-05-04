@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d5a054-a51f-4ae5-b706-234ecc48e284" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kaggle_digit_recognizer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kaggle_titanic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kaggle_titanic/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +16,7 @@
       <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
+            <state relative-caret-position="88">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
@@ -28,7 +25,7 @@
       <file leaf-file-name="cnn_predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="66">
               <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
@@ -37,7 +34,7 @@
       <file leaf-file-name="svm_predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="176">
               <caret line="8" column="33" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
@@ -46,7 +43,7 @@
       <file leaf-file-name="cnn_predict_info.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="22">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -55,7 +52,7 @@
       <file leaf-file-name="svm_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm/svm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="132">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
@@ -64,7 +61,7 @@
       <file leaf-file-name="load_data_std.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="440">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -76,8 +73,8 @@
       <file leaf-file-name="cnn_train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="72" column="2" selection-start-line="72" selection-end-line="75" selection-end-column="93" />
+            <state relative-caret-position="387">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -88,7 +85,7 @@
       <file leaf-file-name="mlp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp/mlp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="22">
               <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
             </state>
           </provider>
@@ -97,7 +94,7 @@
       <file leaf-file-name="statistics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/common/statistics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2812">
+            <state relative-caret-position="3256">
               <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
             </state>
           </provider>
@@ -163,10 +160,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="y" value="12" />
-    <option name="width" value="1335" />
-    <option name="height" value="1002" />
+    <option name="x" value="80" />
+    <option name="y" value="3" />
+    <option name="width" value="1635" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,25 +178,6 @@
           <expand>
             <path>
               <item name="Kaggle_digit_recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kaggle_digit_recognizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kaggle_digit_recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kaggle_digit_recognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="cnn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kaggle_digit_recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kaggle_digit_recognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="submission02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kaggle_digit_recognizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kaggle_digit_recognizer" type="462c0819:PsiDirectoryNode" />
-              <item name="svm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kaggle_digit_recognizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kaggle_titanic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kaggle_titanic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -337,24 +315,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Kaggle_titanic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Kaggle_titanic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Kaggle_titanic/svm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="svm_train" type="PythonConfigurationType" factoryName="Python">
       <module name="Kaggle_digit_recognizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,12 +340,10 @@
       <item itemvalue="Python.pca (1)" />
       <item itemvalue="Python.cnn_predict" />
       <item itemvalue="Python.cnn_predict_submit" />
-      <item itemvalue="Python.svm" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.cnn_predict" />
-        <item itemvalue="Python.svm" />
         <item itemvalue="Python.cnn_predict_submit" />
         <item itemvalue="Python.pca_test" />
         <item itemvalue="Python.pca (1)" />
@@ -428,45 +386,55 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13741064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21294719" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20272572" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.21235102" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4275568" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.21294719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13741064" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20272572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4275568" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24450085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3036723" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32413793" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297619" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4289655" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3036723" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297619" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -775,21 +743,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/common/statistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2812">
+        <state relative-caret-position="3256">
           <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/mlp/mlp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="22">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Kaggle_titanic/svm/svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
@@ -806,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/load_data_std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="440">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -816,36 +784,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_predict_info.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="22">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="66">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svm/svm_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="176">
           <caret line="8" column="33" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svm/svm_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
+        <state relative-caret-position="88">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnn/cnn_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="72" column="2" selection-start-line="72" selection-end-line="75" selection-end-column="93" />
+        <state relative-caret-position="387">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

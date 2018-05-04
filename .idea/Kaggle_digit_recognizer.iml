@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Anaconda Python 3.5 - myenv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Kaggle_titanic" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />
