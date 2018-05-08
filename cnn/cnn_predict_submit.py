@@ -4,7 +4,7 @@ x_submit = get_submit_data('../test.csv')
 from keras.models import load_model
 model = load_model('cnn_train_model.h5')
 prediction = model.predict_classes(x_submit)
-print('CNN, prediction[:10]: ', prediction[:10])
+print('CNN, 10 of prediction for submission = ', prediction[:10])
 
 import pandas as pd
 df=pd.DataFrame(prediction)

@@ -24,7 +24,7 @@ model.add(Conv2D(filters=36,
                  padding='same',
                  activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.25))
+model.add(Dropout(0.4))
 model.add(Flatten())
 model.add(Dense(256, activation='relu'))
 # model.add(Dropout(0.5))

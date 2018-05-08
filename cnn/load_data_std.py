@@ -19,8 +19,8 @@ def get_data(is_train, file_path):
             count += 1
     x_train = np.asarray(xlist).reshape((len(xlist), 28, 28, 1)).astype('float32') / 255
     y_train = to_categorical(np.asarray(ylist, dtype=np.float32), 10)
-    print(x_train.shape)
-    print(y_train.shape)
+    print('x_train.shape: ', x_train.shape)
+    print('y_train.shape: ', y_train.shape)
     return x_train, y_train
 
 def get_submit_data(file_path):
@@ -31,6 +31,6 @@ def get_submit_data(file_path):
         for line in csv_reader:
             xlist.append(line[:784])
     x_submit = np.asarray(xlist).reshape((len(xlist), 28, 28, 1)).astype('float32') / 255
-    print(x_submit.shape)
+    print('x_submit.shape: ', x_submit.shape)
     return x_submit
 
