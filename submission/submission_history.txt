@@ -1,3 +1,7 @@
+2018/05/08 10:45
+1. adjust kernel size from (5,5) to (3,3)
+submission score = 0.98814
+------------------------------------------------
 2018/05/01 09:55
 1. change train data ratio from 0.7 to 0.8
 submission score = 0.98914
