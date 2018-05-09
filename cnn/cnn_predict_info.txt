@@ -1,1 +1,1 @@
-test accuracy = 0.991547619047619
+test accuracy = 0.9926190476190476
