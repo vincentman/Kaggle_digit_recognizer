@@ -40,7 +40,7 @@ model.add(Dense(256, activation='relu'))
 model.add(Dense(10, activation='softmax'))
 print(model.summary())
 
-epochs = 25
+epochs = 20
 # from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
