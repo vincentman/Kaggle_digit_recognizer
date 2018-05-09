@@ -1,11 +1,11 @@
 import time
-
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Activation, BatchNormalization
+from keras.regularizers import l2
 from cnn.load_data_std import get_data
 
 x_train, y_train = get_data(True, '../train.csv')
 
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 
 model = Sequential()
 model.add(Conv2D(filters=36,
@@ -24,14 +24,23 @@ model.add(Conv2D(filters=36,
                  padding='same',
                  activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
+# model.add(Conv2D(filters=36,
+#                  kernel_size=(3, 3),
+#                  padding='same',
+#                  activation='relu'))
+# model.add(MaxPooling2D(pool_size=(2, 2)))
+# model.add(Dropout(0.25))
 model.add(Dropout(0.4))
 model.add(Flatten())
 model.add(Dense(256, activation='relu'))
-# model.add(Dropout(0.5))
+# model.add(Dense(units=256, kernel_regularizer=l2(0.01)))
+# model.add(BatchNormalization())
+# model.add(Activation('relu'))
+# model.add(Dropout(0.4))
 model.add(Dense(10, activation='softmax'))
 print(model.summary())
 
-epochs = 20
+epochs = 25
 # from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
