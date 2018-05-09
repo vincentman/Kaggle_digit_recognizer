@@ -1,6 +1,7 @@
 (5) 2018/05/09 10:55
 1. change epochs from 25 to 20(recover)
 submission score = 0.99128
+position: 734/2404 = 31%
 ------------------------------------------------
 (5) 2018/05/09 10:55
 1. change epochs from 20 to 25
