@@ -52,7 +52,7 @@ model.compile(loss='categorical_crossentropy',
 start = time.time()
 train_history = model.fit(x=x_train,
                           y=y_train, validation_split=0.2,
-                          epochs=epochs, batch_size=128, verbose=2)
+                          epochs=epochs, batch_size=20, verbose=2)
 
 import matplotlib.pyplot as plt
 

@@ -2,7 +2,9 @@ import csv
 import numpy as np
 from keras.utils import to_categorical
 
-train_data_ratio = 0.8
+train_data_ratio = 0.9
+
+
 def get_data(is_train, file_path):
     xlist, ylist = [], []
     data_ratio = train_data_ratio if is_train else 1-train_data_ratio
@@ -22,6 +24,7 @@ def get_data(is_train, file_path):
     print('x_train.shape: ', x_train.shape)
     print('y_train.shape: ', y_train.shape)
     return x_train, y_train
+
 
 def get_submit_data(file_path):
     xlist, ylist = [], []
