@@ -3,9 +3,12 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Activation, BatchNormalization
 from keras.regularizers import l2
 from cnn.load_data_std import get_data
+from keras.callbacks import EarlyStopping
+import matplotlib.pyplot as plt
 
-x_train, y_train = get_data(True, '../train.csv')
-
+x_train, y_train = get_data(True)
+print('x_train.shape: ', x_train.shape)
+print('y_train.shape: ', y_train.shape)
 
 model = Sequential()
 model.add(Conv2D(filters=36,
@@ -29,8 +32,7 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 #                  padding='same',
 #                  activation='relu'))
 # model.add(MaxPooling2D(pool_size=(2, 2)))
-# model.add(Dropout(0.25))
-model.add(Dropout(0.4))
+model.add(Dropout(0.35))
 model.add(Flatten())
 # model.add(Dense(256, activation='relu'))
 model.add(Dense(units=512))
@@ -47,14 +49,16 @@ epochs = 20
 # adam = Adam(lr=learning_rate)
 # model.compile(loss='categorical_crossentropy',
 #               optimizer=adam,metrics=['accuracy'])
+earlyStopping = EarlyStopping(monitor='val_loss', patience=3)
+callbacks = None
+# callbacks = [earlyStopping]
 model.compile(loss='categorical_crossentropy',
               optimizer='adam', metrics=['accuracy'])
 start = time.time()
 train_history = model.fit(x=x_train,
                           y=y_train, validation_split=0.2,
-                          epochs=epochs, batch_size=20, verbose=2)
-
-import matplotlib.pyplot as plt
+                          epochs=epochs, batch_size=32, verbose=2,
+                          callbacks=callbacks)
 
 
 def show_train_history(train_acc, validation_acc, ylabel):
