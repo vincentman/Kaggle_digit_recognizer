@@ -5,6 +5,7 @@ from keras.regularizers import l2
 from cnn.load_data_std import get_data
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import matplotlib.pyplot as plt
+from keras.preprocessing.image import ImageDataGenerator
 
 x_train, y_train = get_data(True)
 print('x_train.shape: ', x_train.shape)
@@ -43,7 +44,7 @@ model.add(Dropout(0.25))
 model.add(Dense(10, activation='softmax'))
 print(model.summary())
 
-epochs = 20
+epochs = 1
 # from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
@@ -62,10 +63,31 @@ model.compile(loss='categorical_crossentropy',
               optimizer='adam', metrics=['accuracy'])
 
 start = time.time()
-train_history = model.fit(x=x_train,
-                          y=y_train, validation_split=0.2,
-                          epochs=epochs, batch_size=32, verbose=2,
-                          callbacks=callbacks)
+# With data augmentation to prevent overfitting
+datagen = ImageDataGenerator(
+    featurewise_center=False,  # set input mean to 0 over the dataset
+    samplewise_center=False,  # set each sample mean to 0
+    featurewise_std_normalization=False,  # divide inputs by std of the dataset
+    samplewise_std_normalization=False,  # divide each input by its std
+    zca_whitening=False,  # apply ZCA whitening
+    rotation_range=10,  # randomly rotate images in the range (degrees, 0 to 180)
+    zoom_range=0.1,  # Randomly zoom image
+    width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)
+    height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)
+    horizontal_flip=False,  # randomly flip images
+    vertical_flip=False)  # randomly flip images
+datagen.fit(x_train)
+
+batch_size = 64
+# train_history = model.fit(x=x_train,
+#                           y=y_train, validation_split=0.2,
+#                           epochs=epochs, batch_size=batch_size, verbose=2,
+#                           callbacks=callbacks)
+x_validation, y_validation = get_data(True)
+train_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=batch_size),
+                                    epochs=epochs, validation_data=(x_validation, y_validation),
+                                    verbose=2, steps_per_epoch=x_train.shape[0]
+                                    , callbacks=callbacks)
 
 
 def show_train_history(train_acc, validation_acc, ylabel):
@@ -95,9 +117,9 @@ end = time.time()
 elapsed_train_time = 'elapsed training time: {} min, {} sec '.format(int((end - start) / 60), int((end - start) % 60))
 print(elapsed_train_time)
 
-model.save('cnn_train_model.h5')
+model.save('cnn_train_model2.h5')
 
-with open('cnn_train_info.txt', 'w') as file:
+with open('cnn_train_info2.txt', 'w') as file:
     file.write(elapsed_train_time + '\n')
     file.write('train accuracy = {}, validation accuracy = {}\n'.format(train_acc, validation_acc))
     file.write('train loss = {}, validation loss = {}\n'.format(train_loss, validation_loss))
