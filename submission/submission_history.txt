@@ -1,6 +1,11 @@
+(15) 2018/06/29 16:15
+1. cnn - use data augmentation technique
+submission score = 0.99642 (8%)
+------------------------------------------------
 (14) 2018/06/29 14:40
 1. cnn - change dropout from 0.35 to 0.25
 2. cnn - change epochs from 20 to 30
+3. cnn - change train_data_ratio from 1.0 to 0.9
 submission score = 0.99571 (13%)
 ------------------------------------------------
 (13) 2018/06/29 09:55

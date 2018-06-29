@@ -33,7 +33,7 @@ model.add(Conv2D(filters=36,
                  padding='same',
                  activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.35))
+model.add(Dropout(0.25))
 model.add(Flatten())
 # model.add(Dense(256, activation='relu'))
 model.add(Dense(units=512))
@@ -44,7 +44,7 @@ model.add(Dropout(0.25))
 model.add(Dense(10, activation='softmax'))
 print(model.summary())
 
-epochs = 1
+epochs = 30
 # from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
@@ -78,7 +78,7 @@ datagen = ImageDataGenerator(
     vertical_flip=False)  # randomly flip images
 datagen.fit(x_train)
 
-batch_size = 64
+batch_size = 32
 # train_history = model.fit(x=x_train,
 #                           y=y_train, validation_split=0.2,
 #                           epochs=epochs, batch_size=batch_size, verbose=2,
@@ -86,7 +86,7 @@ batch_size = 64
 x_validation, y_validation = get_data(True)
 train_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=batch_size),
                                     epochs=epochs, validation_data=(x_validation, y_validation),
-                                    verbose=2, steps_per_epoch=x_train.shape[0]
+                                    verbose=2, steps_per_epoch=x_train.shape[0] // batch_size
                                     , callbacks=callbacks)
 
 
@@ -104,7 +104,7 @@ def show_train_history(train_acc, validation_acc, ylabel):
     plt.xlim(xmax=epochs + 1)
     plt.legend(['train', 'validation'], loc='upper left')
     fig = plt.gcf()
-    fig.savefig('./cnn_train_{}.png'.format(ylabel), dpi=300)
+    fig.savefig('./cnn_train2_{}.png'.format(ylabel), dpi=100)
     plt.clf()
     # plt.show()
     return final_epoch_train_acc, final_epoch_validation_acc
@@ -117,9 +117,9 @@ end = time.time()
 elapsed_train_time = 'elapsed training time: {} min, {} sec '.format(int((end - start) / 60), int((end - start) % 60))
 print(elapsed_train_time)
 
-model.save('cnn_train_model2.h5')
+model.save('cnn_train2_model.h5')
 
-with open('cnn_train_info2.txt', 'w') as file:
+with open('cnn_train2_info.txt', 'w') as file:
     file.write(elapsed_train_time + '\n')
     file.write('train accuracy = {}, validation accuracy = {}\n'.format(train_acc, validation_acc))
     file.write('train loss = {}, validation loss = {}\n'.format(train_loss, validation_loss))
