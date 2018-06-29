@@ -1,6 +1,12 @@
+(14) 2018/06/29 14:40
+1. cnn - change dropout from 0.35 to 0.25
+2. cnn - change epochs from 20 to 30
+submission score = 0.99571 (13%)
+------------------------------------------------
 (13) 2018/06/29 09:55
 1. cnn - add learning_rate_reduction
 2. change train_data_ratio from 0.9 to 1.0
+3. change epochs from 30 to 20
 submission score = 0.99371 (22%)
 ------------------------------------------------
 (12) 2018/06/28 22:10

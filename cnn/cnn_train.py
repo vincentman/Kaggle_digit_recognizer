@@ -32,7 +32,7 @@ model.add(Conv2D(filters=36,
                  padding='same',
                  activation='relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.35))
+model.add(Dropout(0.25))
 model.add(Flatten())
 # model.add(Dense(256, activation='relu'))
 model.add(Dense(units=512))
@@ -43,7 +43,7 @@ model.add(Dropout(0.25))
 model.add(Dense(10, activation='softmax'))
 print(model.summary())
 
-epochs = 20
+epochs = 30
 # from keras.optimizers import Adam
 # learning_rate = 0.0001
 # adam = Adam(lr=learning_rate)
@@ -55,7 +55,7 @@ learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc',
                                             patience=3,
                                             verbose=1,
                                             factor=0.5,
-                                            min_lr=0.00001)
+                                            min_lr=1e-5)
 callbacks = [learning_rate_reduction]
 # callbacks = None
 model.compile(loss='categorical_crossentropy',
@@ -82,7 +82,7 @@ def show_train_history(train_acc, validation_acc, ylabel):
     plt.xlim(xmax=epochs + 1)
     plt.legend(['train', 'validation'], loc='upper left')
     fig = plt.gcf()
-    fig.savefig('./cnn_train_{}.png'.format(ylabel), dpi=300)
+    fig.savefig('./cnn_train_{}.png'.format(ylabel), dpi=100)
     plt.clf()
     # plt.show()
     return final_epoch_train_acc, final_epoch_validation_acc
