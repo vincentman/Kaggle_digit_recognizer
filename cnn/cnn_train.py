@@ -16,7 +16,6 @@ model.add(Conv2D(filters=36,
                  padding='same',
                  input_shape=(28, 28, 1),
                  activation='relu'))
-# model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Conv2D(filters=36,
                  kernel_size=(3, 3),
                  padding='same',
@@ -26,7 +25,6 @@ model.add(Conv2D(filters=36,
                  kernel_size=(3, 3),
                  padding='same',
                  activation='relu'))
-# model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Conv2D(filters=36,
                  kernel_size=(3, 3),
                  padding='same',
@@ -34,9 +32,7 @@ model.add(Conv2D(filters=36,
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 model.add(Flatten())
-# model.add(Dense(256, activation='relu'))
 model.add(Dense(units=512))
-# model.add(Dense(units=256, kernel_regularizer=l2(0.01)))
 model.add(BatchNormalization())
 model.add(Activation('relu'))
 model.add(Dropout(0.25))
@@ -71,15 +67,15 @@ train_history = model.fit(x=x_train,
 def show_train_history(train_acc, validation_acc, ylabel):
     plt.plot(train_history.history[train_acc])
     plt.plot(train_history.history[validation_acc])
-    final_epoch_train_acc = train_history.history[train_acc][epochs - 1]
-    final_epoch_validation_acc = train_history.history[validation_acc][epochs - 1]
-    plt.text(train_history.epoch[epochs - 1], final_epoch_train_acc, 'train = {:.3f}'.format(final_epoch_train_acc))
-    plt.text(train_history.epoch[epochs - 1], final_epoch_validation_acc - 0.01,
-             'valid = {:.3f}'.format(final_epoch_validation_acc))
+    epoch_num = len(train_history.epoch)
+    final_epoch_train_acc = train_history.history[train_acc][epoch_num - 1]
+    final_epoch_validation_acc = train_history.history[validation_acc][epoch_num - 1]
+    plt.text(epoch_num, final_epoch_train_acc, 'train = {:.3f}'.format(final_epoch_train_acc))
+    plt.text(epoch_num, final_epoch_validation_acc - 0.01, 'valid = {:.3f}'.format(final_epoch_validation_acc))
     plt.title('Train History')
     plt.ylabel(ylabel)
     plt.xlabel('Epoch')
-    plt.xlim(xmax=epochs + 1)
+    plt.xlim(xmax=epoch_num + 1)
     plt.legend(['train', 'validation'], loc='upper left')
     fig = plt.gcf()
     fig.savefig('./cnn_train_{}.png'.format(ylabel), dpi=100)

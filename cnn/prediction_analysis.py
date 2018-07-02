@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 
 X_validation, y_validation = get_data(False)
 
-model = load_model('cnn_train_model.h5')
+model = load_model('cnn_train2_model.h5')
 
 
 def plot_confusion_matrix(cm, classes,
@@ -37,6 +37,9 @@ def plot_confusion_matrix(cm, classes,
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    fig = plt.gcf()
+    fig.savefig('confusion matrix.png', dpi=100)
+    plt.clf()
 
 
 # Predict the values from the validation dataset
@@ -71,6 +74,9 @@ def display_errors(errors_index, img_errors, pred_errors, obs_errors):
             ax[row, col].imshow((img_errors[error]).reshape((28, 28)))
             ax[row, col].set_title("Predicted label :{}\nTrue label :{}".format(pred_errors[error], obs_errors[error]))
             n += 1
+    fig = plt.gcf()
+    fig.savefig('recog_fail.png', dpi=100)
+    plt.clf()
 
 
 # Probabilities of the wrong predicted numbers

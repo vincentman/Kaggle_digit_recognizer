@@ -83,7 +83,9 @@ batch_size = 32
 #                           y=y_train, validation_split=0.2,
 #                           epochs=epochs, batch_size=batch_size, verbose=2,
 #                           callbacks=callbacks)
-x_validation, y_validation = get_data(True)
+x_validation, y_validation = get_data(False)
+print('x_validation.shape: ', x_validation.shape)
+print('y_validation.shape: ', y_validation.shape)
 train_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=batch_size),
                                     epochs=epochs, validation_data=(x_validation, y_validation),
                                     verbose=2, steps_per_epoch=x_train.shape[0] // batch_size
@@ -93,15 +95,15 @@ train_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=ba
 def show_train_history(train_acc, validation_acc, ylabel):
     plt.plot(train_history.history[train_acc])
     plt.plot(train_history.history[validation_acc])
-    final_epoch_train_acc = train_history.history[train_acc][epochs - 1]
-    final_epoch_validation_acc = train_history.history[validation_acc][epochs - 1]
-    plt.text(train_history.epoch[epochs - 1], final_epoch_train_acc, 'train = {:.3f}'.format(final_epoch_train_acc))
-    plt.text(train_history.epoch[epochs - 1], final_epoch_validation_acc - 0.01,
-             'valid = {:.3f}'.format(final_epoch_validation_acc))
+    epoch_num = len(train_history.epoch)
+    final_epoch_train_acc = train_history.history[train_acc][epoch_num - 1]
+    final_epoch_validation_acc = train_history.history[validation_acc][epoch_num - 1]
+    plt.text(epoch_num, final_epoch_train_acc, 'train = {:.3f}'.format(final_epoch_train_acc))
+    plt.text(epoch_num, final_epoch_validation_acc - 0.01, 'valid = {:.3f}'.format(final_epoch_validation_acc))
     plt.title('Train History')
     plt.ylabel(ylabel)
     plt.xlabel('Epoch')
-    plt.xlim(xmax=epochs + 1)
+    plt.xlim(xmax=epoch_num + 1)
     plt.legend(['train', 'validation'], loc='upper left')
     fig = plt.gcf()
     fig.savefig('./cnn_train2_{}.png'.format(ylabel), dpi=100)
